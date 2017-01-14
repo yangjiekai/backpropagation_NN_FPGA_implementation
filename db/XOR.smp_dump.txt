@@ -1,0 +1,10 @@
+
+State Machine - |ChipInterface|NeuralHookup:nh|ns
+Name ns.backpropagate 
+ns.propagation 0 
+ns.backpropagate 1 
+
+State Machine - |ChipInterface|NeuralHookup:nh|cs
+Name cs.backpropagate 
+cs.propagation 0 
+cs.backpropagate 1 

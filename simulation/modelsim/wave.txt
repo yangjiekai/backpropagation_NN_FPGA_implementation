@@ -1,0 +1,17 @@
+
+add wave -position insertpoint sim:/TopTest/nh/np/test
+add wave -position insertpoint sim:/TopTest/nh/np/mem_data
+add wave -position insertpoint sim:/TopTest/nh/np/test_output
+add wave -position insertpoint sim:/TopTest/nh/np/address
+add wave -position insertpoint sim:/TopTest/nh/np/output_products
+add wave -position insertpoint sim:/TopTest/nh/np/final_output
+add wave -position insertpoint sim:/TopTest/nh/np/input_values
+add wave -position insertpoint sim:/TopTest/nh/np/stored_final_output
+add wave -position insertpoint sim:/TopTest/nh/np/NFSM/numIterations
+add wave -position insertpoint sim:/TopTest/nh/np/output_diff
+add wave -position insertpoint sim:/TopTest/nh/np/NFSM/cs
+
+
+add wave -position insertpoint sim:/TopTest/nh/rb/address
+add wave -position insertpoint sim:/TopTest/nh/mem_data
+add wave -position insertpoint sim:/TopTest/nh/address

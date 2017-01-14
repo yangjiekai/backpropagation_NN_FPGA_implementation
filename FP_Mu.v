@@ -1,0 +1,63 @@
+module FP_Mu(a,b,p);
+	input [31:0] a,b;
+	output [31:0] p;
+	parameter bias = 8'd127;
+	
+	
+//--inputs----------------------------------------------------------------------//
+	wire [22:0] am, bm; 	 //input mantissa
+	wire [7:0] ae,be;       // input exponent
+	assign am = a[22:0];
+	assign bm = b[22:0];
+	assign ae = a[30:23];
+	assign be = b[30:23];
+	
+//--outputs----------------------------------------------------------------------//
+	reg [22:0] pm;		 	 //output mantissa
+	reg [7:0] pe;			 //output exponent
+	assign p[30:0] = {pe,pm};
+	assign p[31] = a[31]^b[31];
+	
+//--temp variables---------------------------------------------------------------//
+	reg [47:0] pmTemp;		//temp mantissa reg
+	reg [7:0] peTemp;		//temp exponent reg
+	reg [22:0] sm;			//temp mantissa reg after shift
+	reg [23:0] xm;			//temp mantissa reg after round/increment
+	reg rnd;				//if msb of discarded digits is 1, rounding is necessary
+
+//--Combinational Logic----------------------------------------------------------//
+	always@(am,bm,ae,be) begin
+	    
+	    if({ae,am}==31'd0 ||{be,bm}==31'd0)
+	        {pe,pm} = 31'd0;
+	    else begin 
+        		//Initial Product of mantissas
+        		pmTemp = {1'b1,am}*{1'b1,bm};
+        		peTemp = (ae+be)-bias;
+        		
+        		//Shift/Round: if MSB of intial product is 1, select upper 22 bits
+        		//sm = pmTemp[47] ? pmTemp[45:23] : pmTemp[44:22];
+        		//rnd = pmTemp[45] ? pmTemp[22] : pmTemp[21];
+        		if(pmTemp[47]) begin
+        			sm = pmTemp[46:24];
+        			rnd = pmTemp[23];
+        			pe = peTemp+1;
+        		end
+        		else begin
+        			sm = pmTemp[45:23];
+        			rnd = pmTemp[22];
+        			pe = peTemp;
+        		end
+        		//increment mantissa if round up was necessary
+        		xm = sm + rnd;
+        		
+        		//Final Shift 
+        		pm = xm[22:0];
+        		pe = xm[23] ? pe+1 : pe;
+        		
+    		end  //end else
+		
+		
+	
+	end
+endmodule

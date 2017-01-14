@@ -1,0 +1,66 @@
+# Current time Mon Dec 05 22:45:17 2016
+# ModelSim Stack Trace
+# Program = vish
+# Id = "10.2"
+# Version = "2013.02"
+# Date = "Feb  2 2013"
+# Platform = win64
+
+Exception c0000005 has occurred at address 40156bfa. Traceback:
+# 0    0x40156bfa: 'Mtirpc_Init + 0x6b56a'
+# 1    0x401566be: 'Mtirpc_Init + 0x6b02e'
+# 2    0x4011f9bb: 'Mtirpc_Init + 0x3432b'
+# 3    0x4011fe92: 'Mtirpc_Init + 0x34802'
+# 4    0x4011fe7d: 'Mtirpc_Init + 0x347ed'
+# 5    0x40123b38: 'Mtirpc_Init + 0x384a8'
+# 6    0x401322e2: 'Mtirpc_Init + 0x46c52'
+# 7    0x40133a9d: 'Mtirpc_Init + 0x4840d'
+# 8    0x102e195b: 'Tk_HandleEvent + 0x2ab'
+# 9    0x10252fe5: 'Tk_DestroyWindow + 0x445'
+# 10   0x10252e93: 'Tk_DestroyWindow + 0x2f3'
+# 11   0x10252e93: 'Tk_DestroyWindow + 0x2f3'
+# 12   0x10252e93: 'Tk_DestroyWindow + 0x2f3'
+# 13   0x102f3d92: 'TkBindEventProc + 0x1fa2'
+# 14   0x100111ef: 'Tcl_ListMathFuncs + 0x58f'
+# 15   0x1005a265: 'Tcl_ExprObj + 0x1af5'
+# 16   0x100a6fb4: 'TclObjInterpProcCore + 0x74'
+# 17   0x100111ef: 'Tcl_ListMathFuncs + 0x58f'
+# 18   0x100116b1: 'Tcl_EvalObjv + 0x51'
+# 19   0x10012c28: 'TclEvalObjEx + 0x158'
+# 20   0x1001af10: 'Tcl_DbCkfree + 0x35c0'
+# 21   0x100111ef: 'Tcl_ListMathFuncs + 0x58f'
+# 22   0x1005a265: 'Tcl_ExprObj + 0x1af5'
+# 23   0x10058dff: 'Tcl_ExprObj + 0x68f'
+# 24   0x10012eab: 'TclEvalObjEx + 0x3db'
+# 25   0x10012abd: 'Tcl_EvalObjEx + 0x1d'
+# 26   0x8000bf3f: 'Itcl_EvalMemberCode + 0x22f'
+# 27   0x8000c1f4: 'Itcl_ExecMethod + 0x184'
+# 28   0x80010716: 'Itcl_EvalArgs + 0x106'
+# 29   0x8000d9e7: 'Itcl_HandleInstance + 0x167'
+# 30   0x100111ef: 'Tcl_ListMathFuncs + 0x58f'
+# 31   0x1005a265: 'Tcl_ExprObj + 0x1af5'
+# 32   0x10058dff: 'Tcl_ExprObj + 0x68f'
+# 33   0x10012eab: 'TclEvalObjEx + 0x3db'
+# 34   0x10012abd: 'Tcl_EvalObjEx + 0x1d'
+# 35   0x8000bf3f: 'Itcl_EvalMemberCode + 0x22f'
+# 36   0x8000c1f4: 'Itcl_ExecMethod + 0x184'
+# 37   0x80010716: 'Itcl_EvalArgs + 0x106'
+# 38   0x8000d9e7: 'Itcl_HandleInstance + 0x167'
+# 39   0x100111ef: 'Tcl_ListMathFuncs + 0x58f'
+# 40   0x10012212: 'Tcl_EvalEx + 0x9f2'
+# 41   0x10013ad2: 'Tcl_GlobalEval + 0x52'
+# 42   0x103323cf: 'TkWmProtocolEventProc + 0xdf'
+# 43   0x102e18ec: 'Tk_HandleEvent + 0x23c'
+# 44   0x102e0120: 'TkCreateThreadExitHandler + 0x270'
+# 45   0x10095a12: 'Tcl_ServiceEvent + 0xd2'
+# 46   0x10095e32: 'Tcl_DoOneEvent + 0x172'
+# 47   0x102dfc55: 'Tk_MainLoop + 0x25'
+# 48   0x102abd6f: 'Tk_MainEx + 0x89f'
+# 49   0x4010b4bd: 'Mtirpc_Init + 0x1fe2d'
+# 50   0x4010cfca: 'Mtirpc_Init + 0x2193a'
+# 51   0x4056cf02: 'Sqlite_SafeUnload + 0x519a2'
+# 52   0x80468102: 'BaseThreadInitThunk + 0x22'
+# 53   0x8309c2e4: 'RtlUserThreadStart + 0x34'
+StackWalk failed 0
+# End of Stack Trace
+

@@ -1,0 +1,788 @@
+# Reading C:/modeltech64_10.2/tcl/vsim/pref.tcl 
+# //  ModelSim SE-64 10.2 Feb  2 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# OpenFile C:/NN_FPGA/XOR/simulation/modelsim/XOR_run_msim_gate_verilog.do 
+do wave.do 
+run 100000
+# No Design Loaded!
+do C:/NN_FPGA/XOR/simulation/modelsim/XOR_run_msim_gate_verilog.do
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_mf_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_mf_ver".
+# 
+# vmap altera_mf_ver ./verilog_libs/altera_mf_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work altera_mf_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/altera_mf.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module lcell
+# -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
+# -- Compiling module ALTERA_MF_HINT_EVALUATION
+# -- Compiling module ALTERA_DEVICE_FAMILIES
+# -- Compiling module dffp
+# -- Compiling module pll_iobuf
+# -- Compiling module stx_m_cntr
+# -- Compiling module stx_n_cntr
+# -- Compiling module stx_scale_cntr
+# -- Compiling module MF_pll_reg
+# -- Compiling module MF_stratix_pll
+# -- Compiling module arm_m_cntr
+# -- Compiling module arm_n_cntr
+# -- Compiling module arm_scale_cntr
+# -- Compiling module MF_stratixii_pll
+# -- Compiling module ttn_m_cntr
+# -- Compiling module ttn_n_cntr
+# -- Compiling module ttn_scale_cntr
+# -- Compiling module MF_stratixiii_pll
+# -- Compiling module cda_m_cntr
+# -- Compiling module cda_n_cntr
+# -- Compiling module cda_scale_cntr
+# -- Compiling module MF_cycloneiii_pll
+# -- Compiling module MF_cycloneiiigl_m_cntr
+# -- Compiling module MF_cycloneiiigl_n_cntr
+# -- Compiling module MF_cycloneiiigl_scale_cntr
+# -- Compiling module cycloneiiigl_post_divider
+# -- Compiling module MF_cycloneiiigl_pll
+# -- Compiling module altpll
+# -- Compiling module altlvds_rx
+# -- Compiling module stratix_lvds_rx
+# -- Compiling module stratixgx_dpa_lvds_rx
+# -- Compiling module stratixii_lvds_rx
+# -- Compiling module flexible_lvds_rx
+# -- Compiling module stratixiii_lvds_rx
+# -- Compiling module stratixiii_lvds_rx_channel
+# -- Compiling module stratixiii_lvds_rx_dpa
+# -- Compiling module altlvds_tx
+# -- Compiling module stratixv_local_clk_divider
+# -- Compiling module stratix_tx_outclk
+# -- Compiling module stratixii_tx_outclk
+# -- Compiling module flexible_lvds_tx
+# -- Compiling module dcfifo_dffpipe
+# -- Compiling module dcfifo_fefifo
+# -- Compiling module dcfifo_async
+# -- Compiling module dcfifo_sync
+# -- Compiling module dcfifo_low_latency
+# -- Compiling module dcfifo_mixed_widths
+# -- Compiling module dcfifo
+# -- Compiling module altaccumulate
+# -- Compiling module altmult_accum
+# -- Compiling module altmult_add
+# -- Compiling module altfp_mult
+# -- Compiling module altsqrt
+# -- Compiling module altclklock
+# -- Compiling module altddio_in
+# -- Compiling module altddio_out
+# -- Compiling module altddio_bidir
+# -- Compiling module altdpram
+# -- Compiling module altsyncram
+# -- Compiling module alt3pram
+# -- Compiling module parallel_add
+# -- Compiling module scfifo
+# -- Compiling module altshift_taps
+# -- Compiling module a_graycounter
+# -- Compiling module altsquare
+# -- Compiling module altera_std_synchronizer
+# -- Compiling module altera_std_synchronizer_bundle
+# -- Compiling module alt_cal
+# -- Compiling module alt_cal_mm
+# -- Compiling module alt_cal_c3gxb
+# -- Compiling module alt_cal_sv
+# -- Compiling module alt_cal_av
+# -- Compiling module alt_aeq_s4
+# -- Compiling module alt_eyemon
+# -- Compiling module alt_dfe
+# -- Compiling module signal_gen
+# -- Compiling module jtag_tap_controller
+# -- Compiling module dummy_hub
+# -- Compiling module sld_virtual_jtag
+# -- Compiling module sld_signaltap
+# -- Compiling module altstratixii_oct
+# -- Compiling module altparallel_flash_loader
+# -- Compiling module altserial_flash_loader
+# -- Compiling module sld_virtual_jtag_basic
+# -- Compiling module altsource_probe
+# 
+# Top level modules:
+# 	lcell
+# 	altpll
+# 	altlvds_rx
+# 	altlvds_tx
+# 	dcfifo
+# 	altaccumulate
+# 	altmult_accum
+# 	altmult_add
+# 	altfp_mult
+# 	altsqrt
+# 	altclklock
+# 	altddio_bidir
+# 	altdpram
+# 	alt3pram
+# 	parallel_add
+# 	scfifo
+# 	altshift_taps
+# 	a_graycounter
+# 	altsquare
+# 	altera_std_synchronizer_bundle
+# 	alt_cal
+# 	alt_cal_mm
+# 	alt_cal_c3gxb
+# 	alt_cal_sv
+# 	alt_cal_av
+# 	alt_aeq_s4
+# 	alt_eyemon
+# 	alt_dfe
+# 	sld_virtual_jtag
+# 	sld_signaltap
+# 	altstratixii_oct
+# 	altparallel_flash_loader
+# 	altserial_flash_loader
+# 	sld_virtual_jtag_basic
+# 	altsource_probe
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# 
+# vmap altera_ver ./verilog_libs/altera_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work altera_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module global
+# -- Compiling module carry
+# -- Compiling module cascade
+# -- Compiling module carry_sum
+# -- Compiling module exp
+# -- Compiling module soft
+# -- Compiling module opndrn
+# -- Compiling module row_global
+# -- Compiling module TRI
+# -- Compiling module lut_input
+# -- Compiling module lut_output
+# -- Compiling module latch
+# -- Compiling module dlatch
+# -- Compiling module prim_gdff
+# -- Compiling module dff
+# -- Compiling module dffe
+# -- Compiling module dffea
+# -- Compiling module dffeas
+# -- Compiling module prim_gtff
+# -- Compiling module tff
+# -- Compiling module tffe
+# -- Compiling module prim_gjkff
+# -- Compiling module jkff
+# -- Compiling module jkffe
+# -- Compiling module prim_gsrff
+# -- Compiling module srff
+# -- Compiling module srffe
+# -- Compiling module clklock
+# -- Compiling module alt_inbuf
+# -- Compiling module alt_outbuf
+# -- Compiling module alt_outbuf_tri
+# -- Compiling module alt_iobuf
+# -- Compiling module alt_inbuf_diff
+# -- Compiling module alt_outbuf_diff
+# -- Compiling module alt_outbuf_tri_diff
+# -- Compiling module alt_iobuf_diff
+# -- Compiling module alt_bidir_diff
+# -- Compiling module alt_bidir_buf
+# -- Compiling UDP PRIM_GDFF_LOW
+# -- Compiling UDP PRIM_GDFF_HIGH
+# 
+# Top level modules:
+# 	global
+# 	carry
+# 	cascade
+# 	carry_sum
+# 	exp
+# 	soft
+# 	opndrn
+# 	row_global
+# 	TRI
+# 	lut_input
+# 	lut_output
+# 	latch
+# 	dlatch
+# 	dff
+# 	dffe
+# 	dffea
+# 	dffeas
+# 	tff
+# 	tffe
+# 	jkff
+# 	jkffe
+# 	srff
+# 	srffe
+# 	clklock
+# 	alt_inbuf
+# 	alt_outbuf
+# 	alt_outbuf_tri
+# 	alt_iobuf
+# 	alt_inbuf_diff
+# 	alt_outbuf_diff
+# 	alt_outbuf_tri_diff
+# 	alt_iobuf_diff
+# 	alt_bidir_diff
+# 	alt_bidir_buf
+# 
+# vlib verilog_libs/lpm_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/lpm_ver".
+# 
+# vmap lpm_ver ./verilog_libs/lpm_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work lpm_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/220model.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module LPM_MEMORY_INITIALIZATION
+# -- Compiling module LPM_HINT_EVALUATION
+# -- Compiling module LPM_DEVICE_FAMILIES
+# -- Compiling module lpm_constant
+# -- Compiling module lpm_inv
+# -- Compiling module lpm_and
+# -- Compiling module lpm_or
+# -- Compiling module lpm_xor
+# -- Compiling module lpm_bustri
+# -- Compiling module lpm_mux
+# -- Compiling module lpm_decode
+# -- Compiling module lpm_clshift
+# -- Compiling module lpm_add_sub
+# -- Compiling module lpm_compare
+# -- Compiling module lpm_mult
+# -- Compiling module lpm_divide
+# -- Compiling module lpm_abs
+# -- Compiling module lpm_counter
+# -- Compiling module lpm_latch
+# -- Compiling module lpm_ff
+# -- Compiling module lpm_shiftreg
+# -- Compiling module lpm_ram_dq
+# -- Compiling module lpm_ram_dp
+# -- Compiling module lpm_ram_io
+# -- Compiling module lpm_rom
+# -- Compiling module lpm_fifo
+# -- Compiling module lpm_fifo_dc_dffpipe
+# -- Compiling module lpm_fifo_dc_fefifo
+# -- Compiling module lpm_fifo_dc_async
+# -- Compiling module lpm_fifo_dc
+# -- Compiling module lpm_inpad
+# -- Compiling module lpm_outpad
+# -- Compiling module lpm_bipad
+# 
+# Top level modules:
+# 	lpm_constant
+# 	lpm_inv
+# 	lpm_and
+# 	lpm_or
+# 	lpm_xor
+# 	lpm_bustri
+# 	lpm_mux
+# 	lpm_decode
+# 	lpm_clshift
+# 	lpm_add_sub
+# 	lpm_compare
+# 	lpm_mult
+# 	lpm_divide
+# 	lpm_abs
+# 	lpm_counter
+# 	lpm_latch
+# 	lpm_ff
+# 	lpm_shiftreg
+# 	lpm_ram_dq
+# 	lpm_ram_dp
+# 	lpm_ram_io
+# 	lpm_rom
+# 	lpm_fifo
+# 	lpm_fifo_dc
+# 	lpm_inpad
+# 	lpm_outpad
+# 	lpm_bipad
+# 
+# vlib verilog_libs/sgate_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/sgate_ver".
+# 
+# vmap sgate_ver ./verilog_libs/sgate_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work sgate_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/sgate.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module oper_add
+# -- Compiling module oper_addsub
+# -- Compiling module mux21
+# -- Compiling module io_buf_tri
+# -- Compiling module io_buf_opdrn
+# -- Compiling module oper_mult
+# -- Compiling module tri_bus
+# -- Compiling module oper_div
+# -- Compiling module oper_mod
+# -- Compiling module oper_left_shift
+# -- Compiling module oper_right_shift
+# -- Compiling module oper_rotate_left
+# -- Compiling module oper_rotate_right
+# -- Compiling module oper_less_than
+# -- Compiling module oper_mux
+# -- Compiling module oper_selector
+# -- Compiling module oper_decoder
+# -- Compiling module oper_bus_mux
+# -- Compiling module oper_latch
+# 
+# Top level modules:
+# 	oper_add
+# 	oper_addsub
+# 	mux21
+# 	io_buf_tri
+# 	io_buf_opdrn
+# 	oper_mult
+# 	tri_bus
+# 	oper_div
+# 	oper_mod
+# 	oper_left_shift
+# 	oper_right_shift
+# 	oper_rotate_left
+# 	oper_rotate_right
+# 	oper_less_than
+# 	oper_mux
+# 	oper_selector
+# 	oper_decoder
+# 	oper_bus_mux
+# 	oper_latch
+# 
+# vlib verilog_libs/cycloneiv_hssi_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneiv_hssi_ver".
+# 
+# vmap cycloneiv_hssi_ver ./verilog_libs/cycloneiv_hssi_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cycloneiv_hssi_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneiv_hssi_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_reg
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_out_block
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_parallel_register
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_ser
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_tx_rx_det_div_by_2
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_tx_rx_det_clk_gen
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_tx_rx_det_rcv_det_sync
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_tx_rx_det_rcv_det_fsm
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_tx_rx_det_rcv_det_control
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_tx_rx_det_rcv_det_digital
+# -- Compiling module cycloneiv_hssi_tx_pma_sub_tx_rx_det
+# -- Compiling module cycloneiv_hssi_tx_pma
+# -- Compiling module cycloneiv_hssi_rx_pma_sub_deser
+# -- Compiling module cycloneiv_hssi_rx_pma_sub_clkdiv
+# -- Compiling module cycloneiv_hssi_rx_pma
+# -- Compiling module cycloneiv_hssi_pcs_reset
+# -- Compiling module cycloneiv_hssi_digi_chnl_hip_spt
+# -- Compiling module cycloneiv_hssi_phystatus_generator_fsm
+# -- Compiling module cycloneiv_hssi_phystatus_generator
+# -- Compiling module cycloneiv_hssi_rx_pipe_interface
+# -- Compiling module cycloneiv_hssi_tx_pipe_interface
+# -- Compiling module cycloneiv_hssi_q_pipe_interface_top
+# -- Compiling module cycloneiv_hssi_tx_digis_txclk_gating
+# -- Compiling module cycloneiv_hssi_tx_digi_txclk_ctl
+# -- Compiling module cycloneiv_hssi_tx_digis_ram8x49_syn
+# -- Compiling module cycloneiv_hssi_tx_digis_ph_fifo
+# -- Compiling module cycloneiv_hssi_tx_digi_tx_ctrl
+# -- Compiling module cycloneiv_hssi_tx_digi_bist_gen
+# -- Compiling module cycloneiv_hssi_tx_digi_prbs_gen
+# -- Compiling module cycloneiv_hssi_tx_digi_enc_chnl_top
+# -- Compiling module cycloneiv_hssi_tx_digi_iq_pipe_tx
+# -- Compiling module cycloneiv_hssi_tx_digi
+# -- Compiling module cycloneiv_hssi_tx_pcs
+# -- Compiling module cycloneiv_hssi_cmu_dprio_map
+# -- Compiling module cycloneiv_hssi_cmu_dprio_top
+# -- Compiling module cycloneiv_hssi_rx_digis_ph_fifo
+# -- Compiling module cycloneiv_hssi_rx_digis_ram16x14_syn
+# -- Compiling module cycloneiv_hssi_rx_digis_ram20x16_syn
+# -- Compiling module cycloneiv_hssi_rx_digis_ram8x70_syn
+# -- Compiling module cycloneiv_hssi_rx_digis_rxclk_gating
+# -- Compiling module cycloneiv_hssi_rx_digi_rxclk_ctl
+# -- Compiling module cycloneiv_hssi_rx_digi_auto_speed_neg
+# -- Compiling module cycloneiv_hssi_rx_digi_bist_ver
+# -- Compiling module cycloneiv_hssi_rx_digi_cdr_ctrl
+# -- Compiling module cycloneiv_hssi_rx_digi_comp_chnl_top
+# -- Compiling module cycloneiv_hssi_rx_digi_rx_ctrl
+# -- Compiling module cycloneiv_hssi_rx_digi_dec_chnl_top
+# -- Compiling module cycloneiv_hssi_rx_digi_dskw_fifo
+# -- Compiling module cycloneiv_hssi_rx_digi_freqdet
+# -- Compiling module cycloneiv_hssi_rx_digi_eii_module
+# -- Compiling module cycloneiv_hssi_rx_digi_pcs_channel_testbus
+# -- Compiling module cycloneiv_hssi_rx_digi_iq_pipe_rx
+# -- Compiling module cycloneiv_hssi_rx_digi_prbs_ver
+# -- Compiling module cycloneiv_hssi_rx_digi_wordalign
+# -- Compiling module cycloneiv_hssi_rx_digi
+# -- Compiling module cycloneiv_hssi_rx_pcs
+# -- Compiling module cycloneiv_hssi_dskw_sm
+# -- Compiling module cycloneiv_hssi_tx_sm
+# -- Compiling module cycloneiv_hssi_rcv_sm
+# -- Compiling module cycloneiv_hssi_cmu_chnl_reset
+# -- Compiling module cycloneiv_hssi_cmu_quad_reset
+# -- Compiling module cycloneiv_hssi_cmu_auto_speed_neg
+# -- Compiling module cycloneiv_hssi_cmu_clk_gating
+# -- Compiling module cycloneiv_hssi_cmu_clk_ctl
+# -- Compiling module cycloneiv_hssi_cmu_rx_ctrl
+# -- Compiling module cycloneiv_hssi_cmu_rxclk_gating
+# -- Compiling module cycloneiv_hssi_cmu_rxclk_ctl
+# -- Compiling module cycloneiv_hssi_cmu_tx_ctrl
+# -- Compiling module cycloneiv_hssi_cmu_txclk_gating
+# -- Compiling module cycloneiv_hssi_cmu_txclk_ctl
+# -- Compiling module cycloneiv_hssi_cmu_dprio_bit
+# -- Compiling module cycloneiv_hssi_cmu_dprio_bit_pma
+# -- Compiling module cycloneiv_hssi_cmu_dprio_16bit
+# -- Compiling module cycloneiv_hssi_cmu_dprio_16bit_pma
+# -- Compiling module cycloneiv_hssi_cmu_dprio_reg_chnl
+# -- Compiling module cycloneiv_hssi_cmu_dprio_chnl_bus_out_mux
+# -- Compiling module cycloneiv_hssi_cmu_dprio_chnl_top
+# -- Compiling module cycloneiv_hssi_cmu_dprio_status
+# -- Compiling module cycloneiv_hssi_cmu_dprio_addr
+# -- Compiling module cycloneiv_hssi_cmu_dprio_cnt
+# -- Compiling module cycloneiv_hssi_cmu_dprio_ctl_data
+# -- Compiling module cycloneiv_hssi_cmu_dprio_sm
+# -- Compiling module cycloneiv_hssi_cmu_dprio_reg_centrl
+# -- Compiling module cycloneiv_hssi_cmu_dprio_centrl_bus_out_mux
+# -- Compiling module cycloneiv_hssi_cmu_dprio_centrl_top
+# -- Compiling module cycloneiv_hssi_cmu_dprio_map_index
+# -- Compiling module cycloneiv_hssi_cmu
+# -- Compiling module cycloneiv_hssi_calibration_block
+# 
+# Top level modules:
+# 	cycloneiv_hssi_tx_pma
+# 	cycloneiv_hssi_rx_pma
+# 	cycloneiv_hssi_tx_pcs
+# 	cycloneiv_hssi_rx_pcs
+# 	cycloneiv_hssi_cmu_dprio_centrl_top
+# 	cycloneiv_hssi_cmu
+# 	cycloneiv_hssi_calibration_block
+# 
+# vlib verilog_libs/cycloneiv_pcie_hip_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneiv_pcie_hip_ver".
+# 
+# vmap cycloneiv_pcie_hip_ver ./verilog_libs/cycloneiv_pcie_hip_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cycloneiv_pcie_hip_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneiv_pcie_hip_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module cycloneiv_pciehip_param
+# -- Compiling module cycloneiv_pciehip_clkmux
+# -- Compiling module cycloneiv_pciehip_dprio_bit
+# -- Compiling module cycloneiv_pciehip_dprio_16bit
+# -- Compiling module cycloneiv_pciehip_dprio_addr
+# -- Compiling module cycloneiv_pciehip_dprio_cnt
+# -- Compiling module cycloneiv_pciehip_dprio_ctl_data
+# -- Compiling module cycloneiv_pciehip_dprio_sm
+# -- Compiling module cycloneiv_pciehip_dprio_bus_out_mux
+# -- Compiling module cycloneiv_pciehip_dprio_reg
+# -- Compiling module cycloneiv_pciehip_dprio_reg_top
+# -- Compiling module cycloneiv_pciehip_hip_dprio_top
+# -- Compiling module cycloneiv_pciehip_compute_bit
+# -- Compiling module cycloneiv_pciehip_ecc_gen
+# -- Compiling module cycloneiv_pciehip_ecc_chk
+# -- Compiling module cycloneiv_pciehip_ecc_decoder
+# -- Compiling module cycloneiv_pciehip_pulse_ext
+# -- Compiling module cycloneiv_pciehip_hip_mram
+# -- Compiling module cycloneiv_pciehip_mram_top
+# -- Compiling module cycloneiv_pciehip_pciexp_dcfiforam
+# -- Compiling module cycloneiv_pciehip_pciexp_dcram_rtry
+# -- Compiling module cycloneiv_pciehip_pciexp_dcram_rxvc
+# -- Compiling module cycloneiv_pciehip_iei_detect
+# -- Compiling module cycloneiv_pciehip_pciexp_top_hip
+# -- Compiling module cycloneiv_pciehip_hip_top
+# -- Compiling module cycloneiv_hssi_pcie_hip
+# 
+# Top level modules:
+# 	cycloneiv_hssi_pcie_hip
+# 
+# vlib verilog_libs/cycloneiv_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/cycloneiv_ver".
+# 
+# vmap cycloneiv_ver ./verilog_libs/cycloneiv_ver
+# Modifying modelsim.ini
+# vlog -vlog01compat -work cycloneiv_ver {c:/altera/13.0sp1/quartus/eda/sim_lib/cycloneiv_atoms.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling UDP CYCLONEIV_PRIM_DFFE
+# -- Compiling UDP CYCLONEIV_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIV_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneiv_dffe
+# -- Compiling module cycloneiv_mux21
+# -- Compiling module cycloneiv_mux41
+# -- Compiling module cycloneiv_and1
+# -- Compiling module cycloneiv_and16
+# -- Compiling module cycloneiv_bmux21
+# -- Compiling module cycloneiv_b17mux21
+# -- Compiling module cycloneiv_nmux21
+# -- Compiling module cycloneiv_b5mux21
+# -- Compiling module cycloneiv_latch
+# -- Compiling module cycloneiv_routing_wire
+# -- Compiling module cycloneiv_lcell_comb
+# -- Compiling module cycloneiv_io_ibuf
+# -- Compiling module cycloneiv_io_obuf
+# -- Compiling module cycloneiv_ddio_out
+# -- Compiling module cycloneiv_ddio_oe
+# -- Compiling module cycloneiv_ff
+# -- Compiling module cycloneiv_ram_pulse_generator
+# -- Compiling module cycloneiv_ram_register
+# -- Compiling module cycloneiv_ram_block
+# -- Compiling module cycloneiv_mac_data_reg
+# -- Compiling module cycloneiv_mac_sign_reg
+# -- Compiling module cycloneiv_mac_mult_internal
+# -- Compiling module cycloneiv_mac_mult
+# -- Compiling module cycloneiv_mac_out
+# -- Compiling module cycloneiv_io_pad
+# -- Compiling module cycloneiv_ena_reg
+# -- Compiling module cycloneiv_clkctrl
+# -- Compiling module cycloneiv_pseudo_diff_out
+# -- Compiling module cycloneiv_rublock
+# -- Compiling module cycloneiv_termination_ctrl
+# -- Compiling module cycloneiv_termination_rupdn
+# -- Compiling module cycloneiv_termination
+# -- Compiling module cycloneiv_jtag
+# -- Compiling module cycloneiv_crcblock
+# -- Compiling module cycloneiv_oscillator
+# -- Compiling module cycloneiv_controller
+# -- Compiling module cycloneiv_m_cntr
+# -- Compiling module cycloneiv_n_cntr
+# -- Compiling module cycloneiv_scale_cntr
+# -- Compiling module cycloneiv_post_divider
+# -- Compiling module cycloneiv_pll_reg
+# -- Compiling module cycloneiv_pll
+# 
+# Top level modules:
+# 	cycloneiv_dffe
+# 	cycloneiv_and1
+# 	cycloneiv_and16
+# 	cycloneiv_bmux21
+# 	cycloneiv_b17mux21
+# 	cycloneiv_nmux21
+# 	cycloneiv_b5mux21
+# 	cycloneiv_lcell_comb
+# 	cycloneiv_io_ibuf
+# 	cycloneiv_io_obuf
+# 	cycloneiv_ddio_out
+# 	cycloneiv_ddio_oe
+# 	cycloneiv_ff
+# 	cycloneiv_ram_block
+# 	cycloneiv_mac_mult
+# 	cycloneiv_mac_out
+# 	cycloneiv_io_pad
+# 	cycloneiv_clkctrl
+# 	cycloneiv_pseudo_diff_out
+# 	cycloneiv_rublock
+# 	cycloneiv_termination
+# 	cycloneiv_jtag
+# 	cycloneiv_crcblock
+# 	cycloneiv_oscillator
+# 	cycloneiv_controller
+# 	cycloneiv_pll_reg
+# 	cycloneiv_pll
+# 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {XOR_6_1200mv_85c_slow.vo}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module ChipInterface
+# 
+# Top level modules:
+# 	ChipInterface
+# 
+# vlog -sv -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/ChipInterface.sv}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module ChipInterface
+# -- Compiling module ToppTest
+# -- Compiling module TopTest
+# -- Compiling module NeuralHookup
+# 
+# Top level modules:
+# 	ChipInterface
+# 	ToppTest
+# 	TopTest
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/multiplier_32.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module multiplier_32
+# 
+# Top level modules:
+# 	multiplier_32
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/multiplier_16.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module multiplier_16
+# 
+# Top level modules:
+# 	multiplier_16
+# vlog -sv -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/fixed_point_multiplier.sv}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module fixed_point_multiplier
+# 
+# Top level modules:
+# 	fixed_point_multiplier
+# vlog -sv -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/sigmoid.sv}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module sigmoid
+# 
+# Top level modules:
+# 	sigmoid
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/adder4_32.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module adder4_32
+# 
+# Top level modules:
+# 	adder4_32
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/FP_MUL.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module FP_MUL_altfp_mult_trn
+# -- Compiling module FP_MUL
+# 
+# Top level modules:
+# 	FP_MUL
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/FP_MUL_bb.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module FP_MUL
+# 
+# Top level modules:
+# 	FP_MUL
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/mu.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module mu_altfp_mult_41o
+# -- Compiling module mu
+# 
+# Top level modules:
+# 	mu
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/FP_Mu.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module FP_Mu
+# 
+# Top level modules:
+# 	FP_Mu
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR/multiplier {C:/NN_FPGA/XOR/multiplier/test_bench_tb.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module test_bench_tb
+# 
+# Top level modules:
+# 	test_bench_tb
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR/multiplier {C:/NN_FPGA/XOR/multiplier/file_reader_a.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module file_reader_a
+# 
+# Top level modules:
+# 	file_reader_a
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR/multiplier {C:/NN_FPGA/XOR/multiplier/file_reader_b.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module file_reader_b
+# 
+# Top level modules:
+# 	file_reader_b
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR/multiplier {C:/NN_FPGA/XOR/multiplier/file_writer.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module file_writer
+# 
+# Top level modules:
+# 	file_writer
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR/multiplier {C:/NN_FPGA/XOR/multiplier/multiplier.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module multiplier
+# 
+# Top level modules:
+# 	multiplier
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR/multiplier {C:/NN_FPGA/XOR/multiplier/test_bench.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module test_bench
+# 
+# Top level modules:
+# 	test_bench
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/int_to_float.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module int_to_float
+# 
+# Top level modules:
+# 	int_to_float
+# vlog -vlog01compat -work work +incdir+C:/NN_FPGA/XOR {C:/NN_FPGA/XOR/CONVERT.v}
+# Model Technology ModelSim SE-64 vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module CONVERT_altbarrel_shift_tvf
+# -- Compiling module CONVERT_altpriority_encoder_3e8
+# -- Compiling module CONVERT_altpriority_encoder_6e8
+# -- Compiling module CONVERT_altpriority_encoder_be8
+# -- Compiling module CONVERT_altpriority_encoder_rf8
+# -- Compiling module CONVERT_altpriority_encoder_3v7
+# -- Compiling module CONVERT_altpriority_encoder_6v7
+# -- Compiling module CONVERT_altpriority_encoder_bv7
+# -- Compiling module CONVERT_altpriority_encoder_r08
+# -- Compiling module CONVERT_altpriority_encoder_qb6
+# -- Compiling module CONVERT_altfp_convert_l1n
+# -- Compiling module CONVERT
+# 
+# Top level modules:
+# 	CONVERT
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  TopTest
+# vsim +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps TopTest 
+# ** Note: (vsim-3812) Design is being optimized...
+# 
+# ** Note: (vopt-143) Recognized 1 FSM in module "NeuralHookup(fast)".
+# 
+# Loading sv_std.std
+# Loading work.TopTest(fast)
+# Loading work.NeuralHookup(fast)
+# Loading work.fixed_point_multiplier(fast)
+# Loading work.multiplier_32(fast)
+# Loading lpm_ver.lpm_mult(fast)
+# Loading lpm_ver.LPM_HINT_EVALUATION(fast)
+# Loading work.sigmoid(fast)
+# Loading work.CONVERT(fast)
+# Loading work.CONVERT_altfp_convert_l1n(fast)
+# Loading work.CONVERT_altbarrel_shift_tvf(fast)
+# Loading work.CONVERT_altpriority_encoder_qb6(fast)
+# Loading work.CONVERT_altpriority_encoder_rf8(fast)
+# Loading work.CONVERT_altpriority_encoder_be8(fast)
+# Loading work.CONVERT_altpriority_encoder_6e8(fast)
+# Loading work.CONVERT_altpriority_encoder_3e8(fast)
+# Loading work.CONVERT_altpriority_encoder_r08(fast)
+# Loading work.CONVERT_altpriority_encoder_bv7(fast)
+# Loading work.CONVERT_altpriority_encoder_6v7(fast)
+# Loading work.CONVERT_altpriority_encoder_3v7(fast)
+# Loading lpm_ver.lpm_add_sub(fast)
+# Loading lpm_ver.lpm_add_sub(fast__1)
+# Loading lpm_ver.lpm_add_sub(fast__2)
+# Loading lpm_ver.lpm_add_sub(fast__3)
+# Loading lpm_ver.lpm_compare(fast)
+# 
+# add wave *
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do wave.do
+run 100000
+run 1000000
+restart -f
+# Loading sv_std.std
+# Loading work.TopTest(fast)
+# Loading work.NeuralHookup(fast)
+# Loading work.fixed_point_multiplier(fast)
+# Loading work.multiplier_32(fast)
+# Loading lpm_ver.lpm_mult(fast)
+# Loading lpm_ver.LPM_HINT_EVALUATION(fast)
+# Loading work.sigmoid(fast)
+# Loading work.CONVERT(fast)
+# Loading work.CONVERT_altfp_convert_l1n(fast)
+# Loading work.CONVERT_altbarrel_shift_tvf(fast)
+# Loading work.CONVERT_altpriority_encoder_qb6(fast)
+# Loading work.CONVERT_altpriority_encoder_rf8(fast)
+# Loading work.CONVERT_altpriority_encoder_be8(fast)
+# Loading work.CONVERT_altpriority_encoder_6e8(fast)
+# Loading work.CONVERT_altpriority_encoder_3e8(fast)
+# Loading work.CONVERT_altpriority_encoder_r08(fast)
+# Loading work.CONVERT_altpriority_encoder_bv7(fast)
+# Loading work.CONVERT_altpriority_encoder_6v7(fast)
+# Loading work.CONVERT_altpriority_encoder_3v7(fast)
+# Loading lpm_ver.lpm_add_sub(fast)
+# Loading lpm_ver.lpm_add_sub(fast__1)
+# Loading lpm_ver.lpm_add_sub(fast__2)
+# Loading lpm_ver.lpm_add_sub(fast__3)
+# Loading lpm_ver.lpm_compare(fast)
+do wave.do
+run 100000

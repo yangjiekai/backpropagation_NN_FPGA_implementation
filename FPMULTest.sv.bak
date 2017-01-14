@@ -1,0 +1,22 @@
+module FPMULTest;
+    bit clk;
+    bit[17:0] sw;
+    bit[3:0] key;
+    bit[15:0] finalVal;
+    bit[7:0][6:0] hexDisplays;
+
+    initial begin
+        clk = 0;
+        forever #5 clk = ~clk;
+        end
+
+   
+
+	
+	NeuralHookup nh(
+    	.clk(clk),
+    	.sw(sw),
+    	.key(key),
+    	.hexDisplays(hexDisplays));
+
+endmodule: TopTest

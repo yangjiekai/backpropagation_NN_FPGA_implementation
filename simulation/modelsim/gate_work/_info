@@ -1,0 +1,714 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:\NN_FPGA\XOR\simulation\modelsim
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1481034515
+VNb9zYR^99dOO^]B>]1b1C0
+04 7 4 work TopTest fast 0
+=1-d0df9a98299b-5846cb12-a6-87c
+o-quiet -auto_acc_if_foreign -work work -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work +acc
+n@_opt
+OL;O;10.2;57
+vadder4_32
+Z1 !s110 1481034506
+IdIoMDRYh8i`[aPBN5<DNc2
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+Z3 dC:\NN_FPGA\XOR\simulation\modelsim
+w1480796211
+8C:/NN_FPGA/XOR/adder4_32.v
+FC:/NN_FPGA/XOR/adder4_32.v
+L0 40
+Z4 OL;L;10.2;57
+r1
+31
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z6 !s92 -vlog01compat -work work +incdir+C:/NN_FPGA/XOR -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!i10b 1
+!s100 klA3k?j84Y9JNYnbPS6R]3
+!s85 0
+!s108 1481034506.487000
+!s107 C:/NN_FPGA/XOR/adder4_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/adder4_32.v|
+vChipInterface
+Z7 DXx6 sv_std 3 std 0 22 `a<MJET1=lN@jzbA7kHm;1
+Z8 !s110 1481034503
+IWQWV9?IP9lbn4T^NKmHzS0
+R2
+Z9 !s105 ChipInterface_sv_unit
+S1
+R3
+Z10 w1481014359
+Z11 8C:/NN_FPGA/XOR/ChipInterface.sv
+Z12 FC:/NN_FPGA/XOR/ChipInterface.sv
+L0 2
+R4
+r1
+31
+Z13 !s108 1481034503.411000
+Z14 !s107 C:/NN_FPGA/XOR/ChipInterface.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/ChipInterface.sv|
+Z16 o-sv -work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z17 !s92 -sv -work work +incdir+C:/NN_FPGA/XOR -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@chip@interface
+!i10b 1
+!s100 UUeb3HjWW;@S;K?><[:Z63
+!s85 0
+vCONVERT
+Z18 !s110 1481034513
+Ij?ZNnV0coUWe7L6:hDjOn2
+R2
+R3
+Z19 w1480992790
+Z20 8C:/NN_FPGA/XOR/CONVERT.v
+Z21 FC:/NN_FPGA/XOR/CONVERT.v
+L0 828
+R4
+r1
+31
+Z22 !s108 1481034512.593000
+Z23 !s107 C:/NN_FPGA/XOR/CONVERT.v|
+Z24 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/CONVERT.v|
+R5
+R6
+n@c@o@n@v@e@r@t
+!i10b 1
+!s100 YEdU7AJSZzMVgZ:@F1B:K0
+!s85 0
+vCONVERT_altbarrel_shift_tvf
+Z25 !s110 1481034512
+IoVVRe0l8PfE<^JmZCW8Oh0
+R2
+R3
+R19
+R20
+R21
+L0 50
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altbarrel_shift_tvf
+!i10b 1
+!s100 `3[EUl0ZL=A3gd]=c@D3o0
+!s85 0
+vCONVERT_altfp_convert_l1n
+R18
+I2WM@^nTDg_jhCoKlg[UG20
+R2
+R3
+R19
+R20
+R21
+L0 417
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altfp_convert_l1n
+!i10b 1
+!s100 EA7HdV97OKf[6Sfo7n5ZE2
+!s85 0
+vCONVERT_altpriority_encoder_3e8
+R25
+I`Yjj<AZ98N:NXF6bd?bLM0
+R2
+R3
+R19
+R20
+R21
+L0 155
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_3e8
+!i10b 1
+!s100 b[WNNcNZ7CL5`So8DJ>n^2
+!s85 0
+vCONVERT_altpriority_encoder_3v7
+R25
+I54h8QIJ]DRod^jf^cB1Wz1
+R2
+R3
+R19
+R20
+R21
+L0 289
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_3v7
+!i10b 1
+!s100 fZd4Y:GF;EA]k8n?=[AbL0
+!s85 0
+vCONVERT_altpriority_encoder_6e8
+R25
+Il]9YR>O>nH5J1NSA88RNk3
+R2
+R3
+R19
+R20
+R21
+L0 174
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_6e8
+!i10b 1
+!s100 OALf1>`7g18TX:7HH<ofD3
+!s85 0
+vCONVERT_altpriority_encoder_6v7
+R18
+IUjdjnNdl;W8d5P@m3KB[T0
+R2
+R3
+R19
+R20
+R21
+L0 305
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_6v7
+!i10b 1
+!s100 B>FO4i824k]FWZ_hkmOcD0
+!s85 0
+vCONVERT_altpriority_encoder_be8
+R25
+I@11cccMP?S@3=EZHA7QZC2
+R2
+R3
+R19
+R20
+R21
+L0 207
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_be8
+!i10b 1
+!s100 LP^D91:LWmjAST209Z;hA2
+!s85 0
+vCONVERT_altpriority_encoder_bv7
+R18
+IVYcS`QDa=BkbbTiY8Od_C1
+R2
+R3
+R19
+R20
+R21
+L0 333
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_bv7
+!i10b 1
+!s100 o=PkKm@i<34L=dho7jB?z2
+!s85 0
+vCONVERT_altpriority_encoder_qb6
+R18
+IOa;lSGMJ_17>4Qih4<4DA0
+R2
+R3
+R19
+R20
+R21
+L0 389
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_qb6
+!i10b 1
+!s100 cW=kMB>h<BS1BROVLi]ZN2
+!s85 0
+vCONVERT_altpriority_encoder_r08
+R18
+I9Rn17>E<@`lnm;:fUi6<W0
+R2
+R3
+R19
+R20
+R21
+L0 361
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_r08
+!i10b 1
+!s100 KF^kcBP3I<58kD;_Gzn_A1
+!s85 0
+vCONVERT_altpriority_encoder_rf8
+R25
+If?m;Q=3R4Y`]LO_ngVTUf3
+R2
+R3
+R19
+R20
+R21
+L0 240
+R4
+r1
+31
+R22
+R23
+R24
+R5
+R6
+n@c@o@n@v@e@r@t_altpriority_encoder_rf8
+!i10b 1
+!s100 XW3RPBHe1MC^9Ad]DHaS@1
+!s85 0
+vfile_reader_a
+I8NN6O=Pc:[6DJMBBMgQP=1
+R2
+R3
+Z26 w1403356885
+8C:/NN_FPGA/XOR/multiplier/file_reader_a.v
+FC:/NN_FPGA/XOR/multiplier/file_reader_a.v
+L0 18
+R4
+r1
+31
+R5
+Z27 !s92 -vlog01compat -work work +incdir+C:/NN_FPGA/XOR/multiplier -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z28 !s110 1481034510
+!i10b 1
+!s100 foXZj8QC6e^D?f>aVSLQZ2
+!s85 0
+!s108 1481034510.293000
+!s107 C:/NN_FPGA/XOR/multiplier/file_reader_a.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR/multiplier|C:/NN_FPGA/XOR/multiplier/file_reader_a.v|
+vfile_reader_b
+R28
+I2z_lZVfV3`LljAmmDm65Z3
+R2
+R3
+R26
+8C:/NN_FPGA/XOR/multiplier/file_reader_b.v
+FC:/NN_FPGA/XOR/multiplier/file_reader_b.v
+L0 18
+R4
+r1
+31
+R5
+R27
+!i10b 1
+!s100 N2=:bKLKgE;02Y3C^Ug`z1
+!s85 0
+!s108 1481034510.676000
+!s107 C:/NN_FPGA/XOR/multiplier/file_reader_b.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR/multiplier|C:/NN_FPGA/XOR/multiplier/file_reader_b.v|
+vfile_writer
+Ii;FBf7e1?3Fz8`aI2<Z7J2
+R2
+R3
+R26
+8C:/NN_FPGA/XOR/multiplier/file_writer.v
+FC:/NN_FPGA/XOR/multiplier/file_writer.v
+L0 17
+R4
+r1
+31
+R5
+R27
+Z29 !s110 1481034511
+!i10b 1
+!s100 cQkOQjSB2W_omLFi^XB[g2
+!s85 0
+!s108 1481034511.167000
+!s107 C:/NN_FPGA/XOR/multiplier/file_writer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR/multiplier|C:/NN_FPGA/XOR/multiplier/file_writer.v|
+vfixed_point_multiplier
+R7
+Z30 !s110 1481034505
+II`2c[bLA7Hk>RaKYA<:GS3
+R2
+S1
+R3
+w1480796457
+8C:/NN_FPGA/XOR/fixed_point_multiplier.sv
+FC:/NN_FPGA/XOR/fixed_point_multiplier.sv
+L0 1
+R4
+r1
+31
+R16
+R17
+!i10b 1
+!s100 1e3H2B2[WFmMEoKR[AYHU2
+!s105 fixed_point_multiplier_sv_unit
+!s85 0
+!s108 1481034505.802000
+!s107 C:/NN_FPGA/XOR/fixed_point_multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/fixed_point_multiplier.sv|
+vFP_Mu
+Z31 !s110 1481034508
+IVjk<1bd[IJeU1@FTMe_1a2
+R2
+R3
+w1480978792
+8C:/NN_FPGA/XOR/FP_Mu.v
+FC:/NN_FPGA/XOR/FP_Mu.v
+L0 1
+R4
+r1
+31
+R5
+R6
+n@f@p_@mu
+!i10b 1
+!s100 =hkkHI8?fQlTAzOm>mI`13
+!s85 0
+!s108 1481034508.433000
+!s107 C:/NN_FPGA/XOR/FP_Mu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/FP_Mu.v|
+vFP_MUL
+Z32 !s110 1481034507
+I>jUcS[5M7^E>dLTG`MVo52
+R2
+R3
+w1480966640
+8C:/NN_FPGA/XOR/FP_MUL_bb.v
+FC:/NN_FPGA/XOR/FP_MUL_bb.v
+L0 34
+R4
+r1
+31
+R5
+R6
+n@f@p_@m@u@l
+!i10b 1
+!s100 T>baGizJBHc_gLX4BhgL^0
+!s85 0
+!s108 1481034507.553000
+!s107 C:/NN_FPGA/XOR/FP_MUL_bb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/FP_MUL_bb.v|
+vFP_MUL_altfp_mult_trn
+R32
+IP48o1SN^K3j<FF7<=7?=[1
+R2
+R3
+w1480972270
+8C:/NN_FPGA/XOR/FP_MUL.v
+FC:/NN_FPGA/XOR/FP_MUL.v
+L0 46
+R4
+r1
+31
+R5
+R6
+n@f@p_@m@u@l_altfp_mult_trn
+!s108 1481034506.863000
+!s107 C:/NN_FPGA/XOR/FP_MUL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/FP_MUL.v|
+!i10b 1
+!s100 :[8lUf>73RLYCeeX4zaIO0
+!s85 0
+vint_to_float
+IG3Eee8h`AC?4ZjI<76>In0
+R2
+R3
+R26
+8C:/NN_FPGA/XOR/int_to_float.v
+FC:/NN_FPGA/XOR/int_to_float.v
+L0 4
+R4
+r1
+31
+R5
+R6
+R25
+!i10b 1
+!s100 @@Ce6chT4?0=Kj1`;`zn10
+!s85 0
+!s108 1481034512.267000
+!s107 C:/NN_FPGA/XOR/int_to_float.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/int_to_float.v|
+vmu
+R31
+I]?cF6W>QDZDDlz_MU4^Q^0
+R2
+R3
+Z33 w1480976193
+Z34 8C:/NN_FPGA/XOR/mu.v
+Z35 FC:/NN_FPGA/XOR/mu.v
+L0 804
+R4
+r1
+31
+Z36 !s108 1481034507.964000
+Z37 !s107 C:/NN_FPGA/XOR/mu.v|
+Z38 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/mu.v|
+R5
+R6
+!i10b 1
+!s100 6^1W5Cb:chK<PHL<5MJQ<1
+!s85 0
+vmu_altfp_mult_41o
+R31
+IDSU:lOZla4X4WPz<O[3`X3
+R2
+R3
+R33
+R34
+R35
+L0 46
+R4
+r1
+31
+R36
+R37
+R38
+R5
+R6
+!i10b 1
+!s100 hHE@??CMOP65c43IWCMVG3
+!s85 0
+vmultiplier
+R29
+ITOZ]4g6z;G`LQWFSZEB7N0
+R2
+R3
+R26
+8C:/NN_FPGA/XOR/multiplier/multiplier.v
+FC:/NN_FPGA/XOR/multiplier/multiplier.v
+L0 4
+R4
+r1
+31
+R5
+R27
+!i10b 1
+!s100 WS@chIF>]SikgAlc2>MXA3
+!s85 0
+!s108 1481034511.618000
+!s107 C:/NN_FPGA/XOR/multiplier/multiplier.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR/multiplier|C:/NN_FPGA/XOR/multiplier/multiplier.v|
+vmultiplier_16
+IoP`CQVl2KOcL;mK?5eO680
+R2
+R3
+w1480796319
+8C:/NN_FPGA/XOR/multiplier_16.v
+FC:/NN_FPGA/XOR/multiplier_16.v
+L0 40
+R4
+r1
+31
+R5
+R6
+R30
+!i10b 1
+!s100 _A4E]ALC2f^0e:][WoSLk3
+!s85 0
+!s108 1481034505.321000
+!s107 C:/NN_FPGA/XOR/multiplier_16.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/multiplier_16.v|
+vmultiplier_32
+IU1o;5OehfdE^APbTP:9??2
+R2
+R3
+w1480796370
+8C:/NN_FPGA/XOR/multiplier_32.v
+FC:/NN_FPGA/XOR/multiplier_32.v
+L0 40
+R4
+r1
+31
+R5
+R6
+!s110 1481034504
+!i10b 1
+!s100 HU<AAH1O0=h83aUdI>jAn2
+!s85 0
+!s108 1481034504.191000
+!s107 C:/NN_FPGA/XOR/multiplier_32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/multiplier_32.v|
+vNeuralHookup
+R7
+R8
+Ihhg8_d_dZh;l`hDmz_jc72
+R2
+R9
+S1
+R3
+R10
+R11
+R12
+L0 119
+R4
+r1
+31
+R13
+R14
+R15
+R16
+R17
+n@neural@hookup
+!i10b 1
+!s100 TWEgXFnR9^MBlXEjQ3z<Z1
+!s85 0
+vsigmoid
+R7
+IH24b_=@WzYS1XY0fLj:f<3
+R2
+S1
+R3
+w1480796546
+8C:/NN_FPGA/XOR/sigmoid.sv
+FC:/NN_FPGA/XOR/sigmoid.sv
+L0 1
+R4
+r1
+31
+R16
+R17
+R1
+!i10b 1
+!s100 lOCk_`m^T<c@XU8NGP>Fa0
+!s105 sigmoid_sv_unit
+!s85 0
+!s108 1481034506.160000
+!s107 C:/NN_FPGA/XOR/sigmoid.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/NN_FPGA/XOR|C:/NN_FPGA/XOR/sigmoid.sv|
+vtest_bench
+R29
+IILk^f6;68@cV6U^H4?dZb0
+R2
+R3
+R26
+8C:/NN_FPGA/XOR/multiplier/test_bench.v
+FC:/NN_FPGA/XOR/multiplier/test_bench.v
+L0 1
+R4
+r1
+31
+R5
+R27
+!i10b 1
+!s100 WokVD2?;V`1LO7;F_76>X2
+!s85 0
+!s108 1481034511.928000
+!s107 C:/NN_FPGA/XOR/multiplier/test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR/multiplier|C:/NN_FPGA/XOR/multiplier/test_bench.v|
+vtest_bench_tb
+IJMW8U2>Ke0SLX[^mUZZaS2
+R2
+R3
+R26
+8C:/NN_FPGA/XOR/multiplier/test_bench_tb.v
+FC:/NN_FPGA/XOR/multiplier/test_bench_tb.v
+L0 1
+R4
+r1
+31
+R5
+R27
+!s110 1481034509
+!i10b 1
+!s100 ooY0V:Mlj]g`H_25i;zU[3
+!s85 0
+!s108 1481034509.748000
+!s107 C:/NN_FPGA/XOR/multiplier/test_bench_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/NN_FPGA/XOR/multiplier|C:/NN_FPGA/XOR/multiplier/test_bench_tb.v|
+vToppTest
+R7
+R8
+I57z>bAKU`eGiJGN1dgD1K3
+R2
+R9
+S1
+R3
+R10
+R11
+R12
+L0 40
+R4
+r1
+31
+R13
+R14
+R15
+R16
+R17
+n@topp@test
+!i10b 1
+!s100 [N<WP5P9TiN8J?]VU3WF>0
+!s85 0
+vTopTest
+R7
+R8
+IRmNd?30jLH201ADgFPz:I1
+R2
+R9
+S1
+R3
+R10
+R11
+R12
+L0 54
+R4
+r1
+31
+R13
+R14
+R15
+R16
+R17
+n@top@test
+!i10b 1
+!s100 H;fGcN`]>DgeLOYd5jCJl1
+!s85 0

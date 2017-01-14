@@ -1,0 +1,5 @@
+Warning (10268): Verilog HDL information at file_writer.v(105): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at file_reader_b.v(116): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at file_reader_a.v(116): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at ChipInterface.sv(259): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at ChipInterface.sv(283): always construct contains both blocking and non-blocking assignments

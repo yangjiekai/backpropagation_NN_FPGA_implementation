@@ -1,0 +1,18 @@
+transcript on
+if {[file exists gate_work]} {
+	vdel -lib gate_work -all
+}
+vlib gate_work
+vmap work gate_work
+
+vlog -vlog01compat -work work +incdir+. {XOR.vo}
+
+vlog -sv -work work +incdir+C:/altera/13.0sp1/Project\ -/XOR {C:/altera/13.0sp1/Project -/XOR/ChipInterface.sv}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Project\ -/XOR {C:/altera/13.0sp1/Project -/XOR/multiplier_32.v}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Project\ -/XOR {C:/altera/13.0sp1/Project -/XOR/multiplier_16.v}
+vlog -sv -work work +incdir+C:/altera/13.0sp1/Project\ -/XOR {C:/altera/13.0sp1/Project -/XOR/fixed_point_multiplier.sv}
+vlog -sv -work work +incdir+C:/altera/13.0sp1/Project\ -/XOR {C:/altera/13.0sp1/Project -/XOR/sigmoid.sv}
+vlog -vlog01compat -work work +incdir+C:/altera/13.0sp1/Project\ -/XOR {C:/altera/13.0sp1/Project -/XOR/adder4_32.v}
+
+vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_mf_ver -L altera_ver -L lpm_ver -L sgate_ver -L cycloneiv_hssi_ver -L cycloneiv_pcie_hip_ver -L cycloneiv_ver -L gate_work -L work -voptargs="+acc"  TopTest
+

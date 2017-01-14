@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="XOR">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[3].HID_CORRECT_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[0].HID_MULTS_OUT[0].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[0].HID_MULTS_OUT[1].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[1].HID_MULTS_OUT[0].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[0].HID_MULTS_OUTER[0].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[1].HID_MULTS_OUT[1].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[2].HID_MULTS_OUT[0].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[0].HID_MULTS_OUTER[1].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[1].HID_MULTS_OUTER[0].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[3].OUTMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[0].HERR_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[2].HID_MULTS_OUT[1].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[3].HID_MULTS_OUT[0].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|sigmoid:HID_MULTS_INNER[0].sigm|fixed_point_multiplier:fpm|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[1].HID_MULTS_OUTER[1].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[2].HID_MULTS_OUTER[0].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[0].HERR_TEMP2|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[1].HERR_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUU[0].HID_CORRECT_TEMP22|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[0].HID_CORRECT_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[3].HID_MULTS_OUT[1].HID_CORRECTT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|sigmoid:HID_MULTS_INNER[1].sigm|fixed_point_multiplier:fpm|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[2].HID_MULTS_OUTER[1].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[3].HID_MULTS_OUTER[0].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[1].HERR_TEMP2|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[2].HERR_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUU[1].HID_CORRECT_TEMP22|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[1].HID_CORRECT_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:OERR_MULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|sigmoid:HID_MULTS_INNER[2].sigm|fixed_point_multiplier:fpm|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[3].HID_MULTS_OUTER[1].HIDMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[0].HERR_FINAL|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[2].HERR_TEMP2|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[3].HERR_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUU[2].HID_CORRECT_TEMP22|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MU[2].HID_CORRECT_TEMP1|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:OERR_FINAL_MULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|sigmoid:HID_MULTS_INNER[3].sigm|fixed_point_multiplier:fpm|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[1].HERR_FINAL|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[3].HERR_TEMP2|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUU[3].HID_CORRECT_TEMP22|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[0].OUTMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[2].HERR_FINAL|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[1].OUTMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MUL[3].HERR_FINAL|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:out_correc|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ChipInterface|NeuralHookup:nh|fixed_point_multiplier:HID_MULTS_INNER[2].OUTMULT|multiplier_32:int1int2|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_gcn.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
